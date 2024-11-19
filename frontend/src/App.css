@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* リストのスタイル */
+.menu-list,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item,
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+/* ボタンのスタイル */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.add-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* 入力フォームのスタイル */
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* ラベル */
+label {
+  font-weight: bold;
+}
